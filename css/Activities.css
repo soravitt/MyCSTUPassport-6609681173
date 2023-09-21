@@ -47,3 +47,19 @@ html{
         font-style: italic;
         font-weight: 900;
     }
+
+/*---MAIN---*/
+.main-container{
+    max-width: 70vw;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+}
+    .main-box{
+        width: 15vw;
+        height: 25vw;
+        margin: 2vw;
+    }
+        .img img{
+            width: 100%;
+        }
