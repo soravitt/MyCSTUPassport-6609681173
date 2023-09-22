@@ -64,15 +64,16 @@ main{
     }
     .container-main h1{
         font-size: 4.5rem;
+        font-weight: 100;
     }
     .container-main span{
         color: #62929e;
-        font-weight: 900;
+        font-weight: 800;
     }
     .container-main p{
         margin: 1rem;
         font-size: 1.2rem;
-        font-weight: 600;
+        font-weight: 100;
     }
 
 /*---2nd_BLOCK---*/
@@ -88,7 +89,6 @@ main{
     text-align: center;
 }
     .container-nd p{
-        font-weight: 600;
         font-size: 3rem;
     }
     .container-nd span{
@@ -102,6 +102,7 @@ main{
     .container-nd h4{
         margin: 1rem;
         font-size: 0.8rem;
+        font-weight: 100;
     }
 
 /*---3rd_BLOCK---*/
@@ -125,7 +126,6 @@ main{
     .left_column p{
         margin: 0.5rem;
         font-size: 1.5rem;
-        font-weight: 600;
     }
     .left_column span{
         color: #62929e;
