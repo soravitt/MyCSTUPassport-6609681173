@@ -1,0 +1,75 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sarabun', sans-serif;
+    background-color: #62929e;
+    color: #393d3f;
+}
+*{
+    border: red 1px ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 70vw;
+    margin: auto;
+}
+
+
+/*---HEADER---*/
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+    header h1{
+        font-size: 4rem;
+        font-weight: bold;
+        color: #e6e6e6;
+    }
+.menu{
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+    .menu a{
+        margin: 1rem 1rem;
+        text-decoration: none;
+        color: #393d3f;
+    }
+    .menu span{
+        color: #e6e6e6;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+/*---MAIN1---*/
+.image-profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+    .image-profile img{
+        width: 25vw;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .name-container h2{
+        font-size: 3rem;
+        margin: 0.5rem;
+        font-weight: bold;
+    }
+    .name-thai{
+        font-size: 1.5rem;
+    }
+    .description {
+        text-align: center;
+        font-size: 0.8rem;
+    }
