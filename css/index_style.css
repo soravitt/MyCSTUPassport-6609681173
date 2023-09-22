@@ -24,7 +24,7 @@ header{
         background-color: #e6e6e6;
     }
         .logo{
-            background-color: #393d3f;
+            background-color: #62929e;
         }
             .logo a{
                 text-decoration: none;
@@ -40,7 +40,7 @@ header{
                 text-decoration: none;
                 margin: 1rem;
                 font-size: 1rem;
-                color: #393d3f;
+                color: #62929e;
             }
 
 /*---1st_BLCOK---*/
@@ -67,6 +67,7 @@ main{
     }
     .container-main span{
         color: #62929e;
+        font-weight: 900;
     }
     .container-main p{
         margin: 1rem;
