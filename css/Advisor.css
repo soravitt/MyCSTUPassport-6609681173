@@ -4,6 +4,7 @@ html{
     font-family: 'Sarabun', sans-serif;
     background-color: #62929e;
     color: #393d3f;
+    font-size: 1vw;
 }
 *{
     border: red 1px ;
@@ -12,19 +13,24 @@ html{
     box-sizing: border-box;
 }
 body{
-    max-width: 70vw;
     margin: auto;
 }
 
 
 /*---HEADER---*/
-header{
+.title-container{
+    max-width: 70vw;
+    margin: 3rem auto 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3rem;
+    justify-content: center;
 }
-    header h1{
+    .box{
+        width: 3rem;
+        height: 4rem;
+        margin: 0.5rem;
+        background-color: #e6e6e6;
+    }
+    .title-container p{
         font-size: 4rem;
         font-weight: bold;
         color: #e6e6e6;
@@ -38,19 +44,20 @@ header{
     .menu a{
         margin: 1rem 1rem;
         text-decoration: none;
-        color: #393d3f;
+        color: #e6e6e6;
+        font-weight: 500;
     }
     .menu span{
-        color: #e6e6e6;
+        color: #393d3f;
         font-style: italic;
-        font-weight: bold;
+        font-weight: 900;
     }
 
 /*---MAIN1---*/
 .image-profile{
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
     .image-profile img{
         width: 25vw;
@@ -60,16 +67,42 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
 }
     .name-container h2{
         font-size: 3rem;
-        margin: 0.5rem;
+        margin: 1rem;
         font-weight: bold;
     }
     .name-thai{
         font-size: 1.5rem;
     }
-    .description {
+
+
+/*---MAIN2---*/
+.main2{
+    height: 80vh;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .main2 p{
+        font-size: 2rem;
         text-align: center;
-        font-size: 0.8rem;
     }
+    .main2 span{
+        font-weight: bold;
+    }
+
+
+/*---FOOTER---*/
+footer{
+    height: 20vh;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
