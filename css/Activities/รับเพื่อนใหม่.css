@@ -138,3 +138,13 @@ main{
         object-position: bottom;
         margin-left: 3rem;
     }
+
+
+/*--FOOTER--*/
+footer{
+    background-color: #393d3f;
+    text-align: center;
+    color: #e6e6e6;
+    padding: 3rem;
+    font-size: 0.7rem;
+}
