@@ -40,8 +40,8 @@ html{
         margin: 1rem 1rem;
         text-decoration: none;
         color: #393d3f;
-        font-weight: 500;
     }
+    .menu :hover {opacity: 0.6;}
     .menu span{
         color: #62929e;
         font-style: italic;
