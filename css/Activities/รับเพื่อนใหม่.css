@@ -72,16 +72,17 @@ main{
 .main2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 40vw;
-    max-width: 70vw;
+    height: 50vw;
     margin: auto;
+    padding: 8rem 5vw;
+    background-color: white;
 }
     .img-box{
         display: flex;
         justify-content: center;
     }
     .img-box img{
-        width: 80%;
+        width: 50%;
         object-fit: cover;
     }
     .discription-box{
@@ -96,8 +97,8 @@ main{
 .main3{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 6rem;
     height: 30vw;
+    padding: 5rem 3rem 0;
 }
     .main3 .discription-box{
         display: flex;
@@ -112,4 +113,28 @@ main{
         height: 60%;
         object-fit: cover;
         object-position: bottom;
+    }
+
+
+/*---MAIN4---*/
+.main4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30vw;
+    padding: 0 3rem;
+}
+    .main4 .discription-box{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        justify-content: start;
+        margin-top: 2rem;
+    }
+    .main4 .img-box img{
+        width: 80%;
+        height: 60%;
+        object-fit: cover;
+        object-position: bottom;
+        margin-left: 3rem;
     }
