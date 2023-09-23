@@ -52,6 +52,7 @@ body{
         font-style: italic;
         font-weight: 900;
     }
+    .menu :hover{opacity: 0.6;}
 
 /*---MAIN1---*/
 .image-profile{

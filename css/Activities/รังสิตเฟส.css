@@ -1,0 +1,150 @@
+html{
+    font-size: 1vw;
+    font-family: 'Sarabun', sans-serif;
+    color: #393d3f;
+    background-color: #e6e6e6;
+}
+*{
+    border: red 1px ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*---HEADER---*/
+.title-container{
+    max-width: 70vw;
+    margin: 3rem auto 0;
+    display: flex;
+    justify-content: center;
+}
+    .box{
+        width: 3rem;
+        height: 4rem;
+        margin: 0.5rem;
+        background-color: #62929e;
+    }
+    .title-container p{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+.menu{
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+    .menu a{
+        margin: 1rem 1rem;
+        text-decoration: none;
+        color: #393d3f;
+    }
+    .menu :hover {opacity: 0.6;}
+    .menu span{
+        color: #62929e;
+        font-style: italic;
+        font-weight: 900;
+    }
+
+
+/*---MAIN1---*/
+main{
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    main p{
+        font-size: 5rem;
+        display: flex;
+        align-items: center;
+    }
+    main span{
+        font-size: 1rem;
+        padding-bottom: 8rem;
+    }
+
+
+/*---MAIN2---*/
+.main2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vw;
+    margin: auto;
+    padding: 8rem 5vw;
+    background-color: white;
+}
+    .img-box{
+        display: flex;
+        justify-content: center;
+    }
+    .img-box img{
+        width: 50%;
+        object-fit: cover;
+    }
+    .discription-box{
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+/*---MAIN3---*/
+.main3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30vw;
+    padding: 5rem 3rem 0;
+}
+    .main3 .discription-box{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        text-align: end;
+        justify-content: start;
+        margin-top: 2rem;
+    }
+    .main3 .img-box img{
+        width: 80%;
+        height: 60%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+
+/*---MAIN4---*/
+.main4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30vw;
+    padding: 0 3rem;
+    background-color: white;
+}
+    .main4 .discription-box{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        justify-content: start;
+        margin-top: 7rem;
+    }
+    .main4 .img-box img{
+        width: 80%;
+        height: 60%;
+        object-fit: cover;
+        object-position: bottom;
+        margin-left: 3rem;
+        margin-top: 5rem;
+    }
+
+
+/*--FOOTER--*/
+footer{
+    background-color: #393d3f;
+    text-align: center;
+    color: #e6e6e6;
+    padding: 3rem;
+    font-size: 0.7rem;
+}
