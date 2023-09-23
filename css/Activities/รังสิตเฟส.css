@@ -117,26 +117,22 @@ main{
 /*---MAIN4---*/
 .main4{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     height: 30vw;
     padding: 0 3rem;
     background-color: white;
+    
 }
-    .main4 .discription-box{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        text-align: start;
-        justify-content: start;
-        margin-top: 7rem;
+    .main4 .img-box
+    {
+        width: 100%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
-    .main4 .img-box img{
-        width: 80%;
-        height: 60%;
+    .main4 img{
+        width: 70%;
         object-fit: cover;
-        object-position: bottom;
-        margin-left: 3rem;
-        margin-top: 5rem;
+        display: inline-block;
     }
 
 
