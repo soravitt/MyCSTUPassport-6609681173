@@ -31,6 +31,7 @@ header{
             .logo{
                 background-color: #62929e;
             }
+            .logo:hover{background-color: #393d3f;}
                 .logo a{
                     text-decoration: none;
                     font-size: 2rem;

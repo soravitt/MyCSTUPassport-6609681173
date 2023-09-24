@@ -30,10 +30,13 @@ header{
             margin: 0.5rem;
             background-color: #62929e;
         }
-        .title-container p{
+        .title-container a{
             font-size: 4rem;
             font-weight: bold;
+            text-decoration: none;
+            color: #393d3f;
         }
+        .title-container a:hover{opacity: 0.6;}
     .menu{
         max-width: 70vw;
         margin: auto;
