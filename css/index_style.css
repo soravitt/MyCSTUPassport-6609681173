@@ -13,55 +13,59 @@ html{
 
 /*---HEADER---*/
 header{
-    background-color: #e6e6e6;
-    padding: 1rem;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
 }
-    .container{
-        display: flex;
-        justify-content: space-between;
-        max-width: 70vw;
-        margin: auto;
+    .header-container{
         background-color: #e6e6e6;
+        padding: 1rem;
     }
-        .logo{
-            background-color: #62929e;
-        }
-            .logo a{
-                text-decoration: none;
-                font-size: 2rem;
-                color: #e6e6e6;
-            }
-
-        .menu{
+        .container{
             display: flex;
-            align-items: center;
+            justify-content: space-between;
+            max-width: 70vw;
+            margin: auto;
+            background-color: #e6e6e6;
         }
-            .menu a{
-                text-decoration: none;
-                margin: 1rem;
-                font-size: 1rem;
-                color: #62929e;
+            .logo{
+                background-color: #62929e;
             }
-        .menu :hover{opacity: 0.6;}
+                .logo a{
+                    text-decoration: none;
+                    font-size: 2rem;
+                    color: #e6e6e6;
+                }
+
+            .menu{
+                display: flex;
+                align-items: center;
+            }
+                .menu a{
+                    text-decoration: none;
+                    margin: 1rem;
+                    font-size: 1rem;
+                    color: #62929e;
+                }
+            .menu :hover{opacity: 0.6;}
 
 /*---1st_BLCOK---*/
 main{
     background-color: #e6e6e6;
     padding: 1rem;
-    height: 40rem;
+    height: 50rem;
 }
 .container-main{
     max-width: 70vw;
     margin: auto;
     background-color: #e6e6e6;
-
 }
     .container-main img{
         border-radius: 50%;
         width: 22vw;
         display: block;
         margin: auto;
-        margin-top: 1rem;
+        margin-top: 8rem;
     }
     .container-main h1{
         font-size: 4.5rem;
