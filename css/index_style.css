@@ -267,6 +267,22 @@ footer{
     .container-main img{
         width: 60%;
     }
+
+
+    /*---3rd_BLOCK---*/
+    .right_column{
+        margin: 2rem;
+    }
+    .right_column video{
+        width: 80vw;
+    }
+
+
+    /*---FOOTER---*/
+    footer{
+        display: none;
+    }
+    
 }
 
 
