@@ -188,9 +188,8 @@ footer{
 
 
 
-
+/*---1200px---*/
 @media only screen and (max-width: 1200px) {
-    /*  1200    */
     html{
         font-size: 1.4vw;
     }
@@ -204,8 +203,8 @@ footer{
     
 }
 
+/*---768px---*/
 @media only screen and (max-width: 768px) {
-    /*  768  */
 
     html{
         font-size: 1.7vw;
@@ -241,7 +240,35 @@ footer{
         display: block;
         margin: 2rem auto;
     }
+}
+
+/*---576px---*/
+@media only screen and (max-width: 576px){
+    html{
+        font-size: 2.5vw;
     }
+
+    /*---HEADER---*/
+    .container{
+        flex-direction: column;
+        margin: auto;
+        height: 100%;
+    }
+        .logo{
+            width: 90vw;
+            text-align: center;
+        }
+    .menu a{
+        font-size: 1.6rem;
+    }
+
+
+    /*---MAIN---*/
+    .container-main img{
+        width: 60%;
+    }
+}
+
 
     
     
