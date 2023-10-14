@@ -208,7 +208,7 @@ footer{
     /*  768  */
 
     html{
-        font-size: 2.5vw;
+        font-size: 1.7vw;
     }
 
 
@@ -220,7 +220,7 @@ footer{
 
     /*---MAIN---*/
     .container-main img{
-        width: 50%;
+        width: 40%;
     }
 
 
@@ -236,6 +236,11 @@ footer{
         .left_column p{
             margin-top: 1.5rem;
         }
+    .right_column video{
+        width: 60%;
+        display: block;
+        margin: 2rem auto;
+    }
     }
 
     
